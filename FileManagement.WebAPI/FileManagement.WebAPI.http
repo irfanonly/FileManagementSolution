@@ -1,0 +1,6 @@
+@FileManagement.WebAPI_HostAddress = http://localhost:5193
+
+GET {{FileManagement.WebAPI_HostAddress}}/api/auth/login
+Accept: application/json
+
+###

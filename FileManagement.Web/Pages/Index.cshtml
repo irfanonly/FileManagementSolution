@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1>Welcome to File Management System</h1>
+
+    @if (!string.IsNullOrEmpty(Model.Token))
+    {
+        <a class="btn btn-primary" asp-page-handler="DownloadFile">Download File</a>
+    }
+    else
+    {
+        <p>You need to <a asp-page="/Login">login</a> to access files.</p>
+    }
+</div>
