@@ -4,13 +4,13 @@ using System.Net;
 using System.Security.Claims;
 using System.Text;
 
-namespace FileManagement.WebAPI
+namespace FileManagement.WebAPI.Models
 {
     public static class JwtTokenHelper
     {
         public static string GenerateToken(string username, string secretKey, int expiryInMinutes)
         {
-            
+
             var key = Encoding.ASCII.GetBytes(secretKey);
 
             var claims = new List<Claim> {

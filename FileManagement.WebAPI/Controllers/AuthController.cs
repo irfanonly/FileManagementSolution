@@ -1,4 +1,5 @@
-﻿using FileManagement.WebAPI.Services;
+﻿using FileManagement.WebAPI.Models;
+using FileManagement.WebAPI.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FileManagement.WebAPI.Controllers

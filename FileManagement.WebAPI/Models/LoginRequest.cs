@@ -1,4 +1,4 @@
-﻿namespace FileManagement.WebAPI
+﻿namespace FileManagement.WebAPI.Models
 {
     public class LoginRequest
     {
