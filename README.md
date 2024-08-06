@@ -5,5 +5,5 @@
 ### Username: testuser
 ### Password: testpass
 
-#### This solution having 2 projects (Web and Web API)
+#### This solution is having 2 projects (Web and Web API)
 #### Web is implemented using razor pages.
